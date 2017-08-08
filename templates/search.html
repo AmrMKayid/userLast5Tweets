@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block subtext %}
+@{{ screen_name }}
+{% endblock %}
+
+{% block body %}
+  <ul>
+      {% for tweet in tweets %}
+          <h1><li class="tweet">
+            {{tweet}}
+          </li></h1>
+      {% endfor %}
+  </ul>
+{% endblock %}
