@@ -17,7 +17,7 @@ export API_SECRET=S3W2Ny2Jm7hqKU20jUrxziy62HqNEmdVR3dmztPootvDnurXEO
 
 after that we need to set the flask_app
 ```
-FLASK_APP=application.py
+export FLASK_APP=application.py
 ```
 
 Now we can run our program 
